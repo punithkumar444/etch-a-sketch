@@ -1,0 +1,29 @@
+body {
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sketchpad {
+    width: 768px;
+    height: 768px;
+    background-color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    margin: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.toggle-on {
+    background-color: #676666;
+    border-color: #676666;
+}
